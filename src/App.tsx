@@ -62,6 +62,16 @@ function App() {
 
   return (
     <div className="h-screen w-full bg-[#fafafa] text-gray-900 flex flex-col gap-8 items-center justify-center">
+      <a
+        className="absolute right-0 top-0 p-4"
+        href="https://github.com/Olliveer/custom-input-mask"
+        target="_blank"
+      >
+        <img
+          src="/github.png"
+          className="w-8 "
+        />
+      </a>
       <h1 className="text-3xl font-bold">
         <a
           className="underline mr-2"
@@ -155,6 +165,10 @@ function App() {
             </Button>
           </form>
         </Form>
+      </div>
+
+      <div className="text-xs text-gray-500">
+        <p>This is a study project.</p>
       </div>
     </div>
   );
